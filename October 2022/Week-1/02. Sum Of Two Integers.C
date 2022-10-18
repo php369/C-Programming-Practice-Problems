@@ -1,0 +1,20 @@
+//Question:2 (Week-1)
+//Write a c program to find the sum of given two integer values
+//and then display its output.
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int a;
+	int b;
+	int c;
+
+	a = 5;
+	b = 6;
+	c = a + b;
+
+	clrscr();
+	printf("Sum = %d", c);
+}
