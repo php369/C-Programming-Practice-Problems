@@ -3,20 +3,18 @@
 from the user, performs the operation and then prints the result.*/
 
 #include<stdio.h>
-#include<conio.h>
 
 void main()
 {
-	int num1, num2;
+	float num1, num2;
 	float result;
 	char Operator;
-	clrscr();
 
 	printf("Enter the two integer operands: \n");
-	scanf("%d %d", &num1, &num2);
+	scanf("%f %f", &num1, &num2);
 
 	printf("\n Enter the operator to be performed between the two operands entered above: \n");
-	scanf("%c", &Operator);
+	scanf("%s", &Operator);
 
 	if (Operator == '+')
 	{
