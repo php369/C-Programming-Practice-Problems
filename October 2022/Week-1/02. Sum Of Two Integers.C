@@ -3,18 +3,16 @@
 //and then display its output.
 
 #include<stdio.h>
-#include<conio.h>
 
-void main()
+int main()
 {
-	int a;
-	int b;
-	int c;
+	int a, b, c;
 
 	a = 5;
 	b = 6;
 	c = a + b;
 
-	clrscr();
 	printf("Sum = %d", c);
+	
+	return 0;
 }

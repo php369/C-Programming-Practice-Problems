@@ -1,18 +1,18 @@
-//Question:14 (Week-2)
+//Question:14 (Week-1)
 //Write a c program to find the area of the square.
 
 #include<stdio.h>
-#include<conio.h>
 
-void main()
+int main()
 {
 	float s, A;
-	clrscr();
 
 	printf("Enter the side of the square: \n");
 	scanf("%f", &s);
 
 	A = s * s;
 
-	printf("Area of the square: %f", A);
+	printf("\nArea of the square: %f sq. untis.", A);
+	
+	return 0;
 }

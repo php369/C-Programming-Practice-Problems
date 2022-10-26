@@ -2,10 +2,10 @@
 //Write a program to print a string "Hello!"
 
 #include<stdio.h>
-#include<conio.h>
 
-void main()
+int main()
 {
-	clrscr();
 	printf("Hello!");
+	
+	return 0;
 }

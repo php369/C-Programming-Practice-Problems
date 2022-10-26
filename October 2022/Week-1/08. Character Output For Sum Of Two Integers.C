@@ -1,16 +1,17 @@
 //Question:8 (Week-1)
 //Find the output of the following c code.
 
-void main()
+#include<stdio.h>
+
+int main()
 {
-	int a;
-	int b;
-	int c;
+	int a, b, c;
 
 	a = 65;
 	b = 0;
 	c = a + b;
 
-	clrscr();
 	printf("%c", c);
+	
+	return 0;
 }

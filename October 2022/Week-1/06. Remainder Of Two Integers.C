@@ -1,20 +1,17 @@
 //Question:6 (Week-1)
-//Write a c program to find the remainder of the given two integer values
-//and then display its output.
+//Write a c program to find the remainder of the given two integer values and then display its output.
 
 #include<stdio.h>
-#include<conio.h>
 
-void main()
+int main()
 {
-	int a;
-	int b;
-	int c;
+	int a, b, c;
 
 	a = 3;
 	b = 2;
 	c = a % b;
 
-	clrscr();
 	printf("Remainder = %d", c);
+	
+	return 0;
 }

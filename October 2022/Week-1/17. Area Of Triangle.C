@@ -1,14 +1,12 @@
-//Question:17 (Week-2)
+//Question:17 (Week-1)
 //Write a program to find the area of a triangle.
 
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
 
-void main()
+int main()
 {
 	float a, b, c, S, A;
-	clrscr();
 
 	printf("Enter the sides of the triangle as a, b, c: \n");
 	scanf("%f %f %f", &a, &b, &c);
@@ -16,5 +14,7 @@ void main()
 	S = (a + b + c) / 2;
 	A = sqrt(S * (S - a) * (S - b) * (S - c));
 
-	printf("The area of the triangle is %f", A);
+	printf("\nThe area of the triangle is %f sq. units.", A);
+	
+	return 0;
 }

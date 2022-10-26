@@ -3,18 +3,16 @@
 //and display its output.
 
 #include<stdio.h>
-#include<conio.h>
 
-void main()
+int main()
 {
-	int a;
-	int b;
-	int c;
+	int a, b, c;
 
 	a = 16;
 	b = 8;
 	c = a / b;
 
-	clrscr();
 	printf("Quotient = %d", c);
+	
+	return 0;
 }

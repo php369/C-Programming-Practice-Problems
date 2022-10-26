@@ -1,6 +1,5 @@
 //Question:18 (Week-1)
-/*Write a c program that takes two integer operands and one operator
-from the user, performs the operation and then prints the result.*/
+/*Write a c program that takes two integer operands and one operator from the user, performs the operation and then prints the result.*/
 
 #include<stdio.h>
 
