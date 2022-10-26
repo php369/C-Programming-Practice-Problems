@@ -4,7 +4,7 @@
 #include<stdio.h>
 #include<math.h>
 
-int main()
+void main()
 {
 	float a, b, c, D, r1, r2, RP, IP;
 
@@ -40,7 +40,4 @@ int main()
 			printf("\nRoots are imaginary. Root 1 = %f + %fi and Root 2 = %f - %fi", RP, IP, RP, IP);
 		}
 	}
-	
-	return 0;
-	
 }

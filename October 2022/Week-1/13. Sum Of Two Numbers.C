@@ -3,7 +3,7 @@
 
 #include<stdio.h>
 
-int main()
+void main()
 {
 	float a, b, c;
 
@@ -13,6 +13,4 @@ int main()
 	c = a + b;
 
 	printf("\nSum = %f", c);
-	
-	return 0;
 }

@@ -3,9 +3,7 @@
 
 #include<stdio.h>
 
-int main()
+void main()
 {
 	printf("Hello!");
-	
-	return 0;
 }

@@ -3,7 +3,7 @@
 
 #include<stdio.h>
 
-int main()
+void main()
 {
 	int a, b, c;
 
@@ -12,6 +12,4 @@ int main()
 	c = a + b;
 
 	printf("%o", c);
-	
-	return 0;
 }

@@ -3,7 +3,7 @@
 
 #include<stdio.h>
 
-int main()
+void main()
 {
 	float s, A;
 
@@ -13,6 +13,4 @@ int main()
 	A = s * s;
 
 	printf("\nArea of the square: %f sq. untis.", A);
-	
-	return 0;
 }

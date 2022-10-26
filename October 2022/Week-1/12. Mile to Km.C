@@ -4,7 +4,7 @@
 #include<stdio.h>
 #define km_per_mile 1.609
 
-int main()
+void main()
 {
 	float mile, km;
 	
@@ -14,6 +14,4 @@ int main()
 	km = mile * km_per_mile;
 
 	printf("\nMiles in km = %f km", km);
-	
-	return 0;
 }

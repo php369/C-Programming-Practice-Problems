@@ -4,7 +4,7 @@
 #include<stdio.h>
 #include<math.h>
 
-int main()
+void main()
 {
 	float a, b, c, S, A;
 
@@ -15,6 +15,4 @@ int main()
 	A = sqrt(S * (S - a) * (S - b) * (S - c));
 
 	printf("\nThe area of the triangle is %f sq. units.", A);
-	
-	return 0;
 }

@@ -3,7 +3,7 @@
 
 #include<stdio.h>
 
-int main()
+void main()
 {
 	int a, b;
 	
@@ -15,6 +15,4 @@ int main()
 	a=a-b;
 
 	printf("\nSwapped values of a, b: %d %d", a, b);
-	
-	return 0;
 }

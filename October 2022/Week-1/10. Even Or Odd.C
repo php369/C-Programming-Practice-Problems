@@ -4,7 +4,7 @@ odd number. If it is even, then display "Even", otherwise display "Odd". */
 
 #include<stdio.h>
 
-int main()
+void main()
 {
 	int a;
 	
@@ -18,6 +18,4 @@ int main()
 	{
 		printf("Odd");
 	}
-	
-	return 0;
 }

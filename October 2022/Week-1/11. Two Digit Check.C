@@ -3,7 +3,7 @@
 
 #include<stdio.h>
 
-int main()
+void main()
 {
 	int a;
 	
@@ -17,6 +17,4 @@ int main()
 	{
 		printf("Not a two digit number.");
 	}
-	
-	return 0;
 }

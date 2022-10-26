@@ -3,13 +3,11 @@
 
 #include<stdio.h>
 
-int main()
+void main()
 {
 	int x;
 	
 	x = printf("Hello");
 	
 	printf("%d", x);
-	
-	return 0;
 }

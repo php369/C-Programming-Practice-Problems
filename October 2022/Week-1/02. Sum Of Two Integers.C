@@ -1,10 +1,9 @@
 //Question:2 (Week-1)
-//Write a c program to find the sum of given two integer values
-//and then display its output.
+//Write a c program to find the sum of given two integer values and then display its output.
 
 #include<stdio.h>
 
-int main()
+void main()
 {
 	int a, b, c;
 
@@ -13,6 +12,4 @@ int main()
 	c = a + b;
 
 	printf("Sum = %d", c);
-	
-	return 0;
 }
