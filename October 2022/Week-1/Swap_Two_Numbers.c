@@ -1,5 +1,5 @@
 //Question:15 (Week-1)
-//Write a c program to swap two variable numbers.
+//Write a c program to swap two variable numbers without using a temporary variable.
 
 #include<stdio.h>
 

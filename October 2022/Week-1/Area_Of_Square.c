@@ -2,9 +2,8 @@
 //Write a c program to find the area of the square.
 
 #include<stdio.h>
+void main(){
 
-void main()
-{
 	float s, A;
 
 	printf("Enter the side of the square: \n");
