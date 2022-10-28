@@ -1,3 +1,4 @@
+//Question:20 (Week-1)
 //Write a c program to compute simple interest for given input values.
 
 #include<stdio.h>

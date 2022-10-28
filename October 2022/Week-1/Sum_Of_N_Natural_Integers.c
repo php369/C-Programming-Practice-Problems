@@ -1,3 +1,4 @@
+//Question:21 (Week-1)
 //Write a c program to find the sum of N natural integers.
 
 #include<stdio.h>
