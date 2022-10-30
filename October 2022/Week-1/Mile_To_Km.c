@@ -13,5 +13,5 @@ void main()
 
 	km = mile * km_per_mile;
 
-	printf("\nMiles in km = %f km", km);
+	printf("\n%f miles = %f km", mile, km);
 }

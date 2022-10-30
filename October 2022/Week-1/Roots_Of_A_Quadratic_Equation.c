@@ -8,7 +8,7 @@ void main()
 {
 	float a, b, c, D, r1, r2, RP, IP;
 
-	printf("Enter the values of the coefficients of x^2, x, and the constant as a, b, c: \n");
+	printf("Enter the coefficients of x^2, x, and the constant as a, b, c: \n");
 	scanf("%f %f %f", &a, &b, &c);
 	
 	if (a==0)
@@ -24,13 +24,15 @@ void main()
 			r1 = (-b + sqrt(D)) / (2 * a);
 			r2 = (-b - sqrt(D)) / (2 * a);
 
-			printf("\nRoots are real. Root 1 = %f and Root 2 = %f", r1, r2);
+			printf("\nRoots are real.");
+			printf("\nRoot 1 = %f and Root 2 = %f", r1, r2);
 		}
 		else if (D == 0)
 		{
 			r1 = r2 = -b / (2 * a);
 
-			printf("\nRoots are real and equal. Root 1 = Root 2 = %f", r1);
+			printf("\nRoots are real and equal.");
+			printf("Root 1 = %f and Root 2 = %f", r1, r2);
 		}
 		else
 		{

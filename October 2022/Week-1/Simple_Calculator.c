@@ -6,34 +6,33 @@ performs the operation and then prints the result.*/
 
 void main()
 {
-	float num1, num2;
-	float result;
-	char Operator;
+	float operand1, operand2, result;
+	char operator;
 
 	printf("Enter the two integer operands:\n");
-	scanf("%f %f", &num1, &num2);
+	scanf("%f %f", &operand1, &operand2);
 
-	printf("\nEnter the operator to be performed between the two operands entered above:\n");
-	scanf("%s", &Operator);
+	printf("\nEnter the operator (+, -, *, /) to be performed between the two operands entered above:\n");
+	scanf("%s", &operator);
 
-	if (Operator == '+')
+	if (operator == '+')
 	{
-		result = num1 + num2;
+		result = operand1 + operand2;
 		printf("\nThe result is %f", result);
 	}
-	else if (Operator == '-')
+	else if (operator == '-')
 	{
-		result = num1 - num2;
+		result = operand1 - operand2;
 		printf("\nThe result is %f", result);
 	}
-	else if (Operator == '*')
+	else if (operator == '*')
 	{
-		result = num1 * num2;
+		result = operand1 * operand2;
 		printf("\nThe result is %f", result);
 	}
-	else if (Operator == '/')
+	else if (operator == '/')
 	{
-		result = num1 / num2;
+		result = operand1 / operand2;
 		printf("\nThe result is %f", result);
 	}
 	else

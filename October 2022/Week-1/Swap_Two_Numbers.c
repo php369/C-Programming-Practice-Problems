@@ -5,14 +5,14 @@
 
 void main()
 {
-	int a, b;
+	int num1, num2;
 	
-	printf("Enter the a, b values:\n");
-	scanf("%d %d", &a, &b);
+	printf("Enter the num1, num2 values:\n");
+	scanf("%d %d", &num1, &num2);
 
-	a=a+b;
-	b=a-b;
-	a=a-b;
+	num1 = num1 + num2;
+	num2 = num1 - num2;
+	num1 = num1 - num2;
 
-	printf("\nSwapped values of a, b: %d %d", a, b);
+	printf("\nSwapped values of num1, num2: %d, %d", num1, num2);
 }
