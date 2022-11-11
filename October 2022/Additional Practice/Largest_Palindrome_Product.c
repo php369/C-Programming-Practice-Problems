@@ -10,7 +10,7 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 
 void main()
 {
-    int num1, num2, product=1, length, i, palindrome, largest_palindrome_product, current;
+    int num1, num2, product=1, length, i, palindrome, largest_palindrome_product=0, current;
     char string_product[6];
 
     for (num1=100; num1<=999; num1++)
