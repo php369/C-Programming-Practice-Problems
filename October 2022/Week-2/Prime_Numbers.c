@@ -9,7 +9,7 @@ void main()
     printf("Enter the n value upto which you want all the prime numbers:\n");
     scanf("%d", &n);
 
-    for (num=2; num<=n; num++)
+    for (num=2; num<n; num++)
     {
         prime = 1;
         for (i=2; i<num; i++)
