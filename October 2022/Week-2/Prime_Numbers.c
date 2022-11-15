@@ -9,6 +9,8 @@ void main()
     printf("Enter the n value upto which you want all the prime numbers:\n");
     scanf("%d", &n);
 
+    printf("Prime numbers upto %d are:\n", n);
+    
     for (num=2; num<n; num++)
     {
         prime = 1;
@@ -21,8 +23,6 @@ void main()
             }
         }
         if (prime)
-        {
             printf("%d \t", num);
-        }
     }
 }
