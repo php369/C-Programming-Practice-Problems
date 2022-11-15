@@ -12,7 +12,7 @@ void main()
 
     d_copy = d; //Because d value is being lost in the iteration, hence is preserved in some other variable to print at the end
 
-    L1: if (d > 0)
+    L1:if (d > 0)
     {
         rem = d % 2;
         b += rem * pow(10, i);
