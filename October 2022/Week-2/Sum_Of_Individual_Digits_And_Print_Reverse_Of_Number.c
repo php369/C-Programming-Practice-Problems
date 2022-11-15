@@ -16,12 +16,10 @@ void main()
     {
         d = n % 10;
         sum += d;
-        n = n / 10;
+        n /= 10;
         
         goto L1;
     }
-
-    printf("Sum of the posotive integer: %d", sum);
 
     Rev = 0;
 
@@ -29,10 +27,11 @@ void main()
     {
         d = N % 10;
         Rev = (Rev * 10) + d;
-        N = N / 10;
+        N /= 10;
 
         goto L2;
     }
 
-    printf("\nReversed number = %d", Rev);
+    printf("Sum of the posotive integer: %d", sum);
+    printf("\nReversed number: %d", Rev);
 }
