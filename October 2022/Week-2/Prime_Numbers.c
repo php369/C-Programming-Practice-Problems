@@ -13,7 +13,7 @@ void main()
     
     for (num=2; num<n; num++)
     {
-        prime = 1;
+        prime = 1; //Flagging
         for (i=2; i<num; i++)
         {
             if (num % i == 0)
