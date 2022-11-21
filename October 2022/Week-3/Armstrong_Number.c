@@ -7,7 +7,7 @@
 void main()
 {
     //Declaring variables
-    int n, n_copy, digits, sum, d;
+    int n, n_copy, digits=0, sum, d;
 
     //Reading the number
     printf("Enter any positive number:\n");
@@ -15,8 +15,6 @@ void main()
 
     //Storing n value in a temporary variable
     n_copy = n; 
-
-    digits = 0;
 
     while (n > 0)
     {
