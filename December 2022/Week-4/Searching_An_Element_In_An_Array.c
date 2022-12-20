@@ -7,7 +7,7 @@ void main()
 {
     //Declaring variables and the array
     int n, i, element, flag=0;
-    int a[n];
+    int a[100];
 
     //Reading the no. of terms in the array
     printf("Enter the no. of terms in the array: ");
