@@ -6,7 +6,7 @@
 void main()
 {
     //Declaring variables and the array
-    int n, i, element, flag=0;
+    int n, i, element, flag;
     int a[100];
 
     //Reading the no. of terms in the array
@@ -24,6 +24,8 @@ void main()
     printf("Enter the element you want to search for: ");
     scanf("%d", &element);
 
+    flag = 0;
+    
     //Searching the element in the array
     for (i=0; i<n; i++)
     {
