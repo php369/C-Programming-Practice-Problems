@@ -7,7 +7,7 @@ void main()
 {
     //Declaring variables and the array
     int n, i, j, temp;
-    int a[n];
+    int a[100];
 
     //Reading the no. of terms in the array
     printf("Enter the no. of terms in the array: ");
@@ -16,7 +16,7 @@ void main()
     //Assigning terms to the array
     for (i=0; i<n; i++)
     {
-        printf("Enter %dth element: ", i);
+        printf("Enter element a[%d]: ", i);
         scanf("%d", &a[i]);
     }
 
@@ -24,11 +24,11 @@ void main()
     {
         for (j=0; j<n; j++)
         {
-            if (a[i] < a[j])
+            if (a[j] > a[j+1])
             {
-                temp = a[i];
-                a[i] = a[j];
-                a[j] = temp;
+                temp = a[j];
+                a[j] = a[j+1];
+                a[j+1] = temp;
             }
         }
     }
