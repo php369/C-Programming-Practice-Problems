@@ -39,7 +39,7 @@ void main()
         }
     }
 
-    //Adding two matrices
+    //Subtracting two matrices
     printf("\nSubtraction of two matrices: ");
     for (i=0; i<n; i++)
     {
