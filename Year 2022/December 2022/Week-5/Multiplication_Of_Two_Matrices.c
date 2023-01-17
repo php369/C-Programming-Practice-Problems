@@ -32,19 +32,7 @@ void main()
         }
     }
 
-    //Printing Matrix M
-    printf("\nMatrix M:");
-
-    for (i=0; i<n; i++)
-    {
-        printf("\n");
-        for (j=0; j<m; j++)
-        {
-            printf("%d ", M[i][j]);
-        }
-    }
-
-    printf("\n\n");    
+    printf("\n");    
 
     //Reading the elements of the matrix N
     for (i=0; i<m; i++)
@@ -55,20 +43,6 @@ void main()
             scanf("%d", &N[i][j]);
         }
     }
-
-    //Printing Matrix N
-    printf("\nMatrix M:");
-
-    for (i=0; i<m; i++)
-    {
-        printf("\n");
-        for (j=0; j<q; j++)
-        {
-            printf("%d ", N[i][j]);
-        }
-    }
-
-    printf("\n");
 
     //Multiplying two matrices
     printf("\nMultiplication of two matrices: ");
