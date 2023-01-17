@@ -6,7 +6,7 @@
 void main()
 {
     //Declare variables
-    int n, m, q, k, M[100][100], N[100][100], P[100][100], i, j;
+    int n, m, q, k, M[10][10], N[10][10], P[10][10], i, j;
 
     //Read n, m, k values
     printf("\nEnter no. of rows of Matrix M (n): ");
