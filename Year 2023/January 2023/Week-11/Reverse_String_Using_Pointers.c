@@ -2,26 +2,25 @@
 //Program to reverse a string using pointers
 
 #include<stdio.h>
-
-void str_rev(char *sp[100], int, int);
+#include<string.h>
 
 void main()
 {
-    char str[100];
+    char str[100], *sp_start, *sp_end, temp;
+    int i, j;
 
     printf("Enter a string: ");
     gets(str);
     
-    str_rev(&str, 0, strlen(str)-1);
+    sp_start = str;
+    sp_end = str + strlen(str) + 1;
+
+    for (i=0, j=strlen(str); i<j; i++, j--)
+    {
+        temp = sp_start;
+        sp_start = sp_end;
+        sp_end = temp;
+    }
 
     printf("\nReversed string: %s", str);
-}
-
-void str_rev(char str[100], int i, int j)
-{
-    int 
-    for (i=0, j=0; i<j; i++, j--)
-    {
-
-    } 
 }
