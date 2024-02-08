@@ -24,7 +24,7 @@ void TOH(int n, char from, char to, char temp)
         TOH(n-1, 'A', 'B', 'C');
 
         printf("\nMove %d disk from %c to %c", n, from, to);
-
+        
         TOH(n-1, 'B', 'C', 'A');
     }
 }
